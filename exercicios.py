@@ -18,7 +18,7 @@ def exibir_opcoes():
     print('5.Lista de Números Decrescente')
     print('6.Tabuada')
     print('7.Soma dos números da Lista de 1 a 10')
-    print('8.Média dos núemros da Lista de 1 a 10')
+    print('8.Média dos números da Lista de 1 a 10')
 
 # Função para voltar ao menu principal após a execução de uma ação
 def voltar_ao_menu_principal():
