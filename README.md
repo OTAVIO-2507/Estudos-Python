@@ -1,27 +1,54 @@
-# 💻 Programa de Menu Interativo (Python)
-Um simples programa de console em Python que apresenta um menu interativo com 8 opções. Este projeto demonstra o uso de funções, estruturas condicionais (if/elif/else), manipulação de listas, cálculos básicos (soma, média, idade) e tratamento de entrada do usuário (input).
+# Estudos Python — Menu Interativo de Exercícios
 
-O programa roda em um loop contínuo até que seja interrompido manualmente, voltando sempre ao menu principal após a execução de cada opção.
+Programa de console em Python com um menu interativo de 8 opções que reúne exercícios de fundamentos: manipulação de listas, cálculos de soma e média, tabuada, ordenação e tratamento de entradas do usuário.
 
-## ✨ Funcionalidades Principais
-O programa permite ao usuário:
+![Python](https://img.shields.io/badge/Python_3-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
-- Exibir listas de números e nomes.
-- Calcular a idade a partir do ano de nascimento e ano atual.
-- Gerar a tabuada de qualquer número (inteiro ou decimal).
-- Mostrar a lista de números em ordem decrescente.
-- Calcular a soma e a média dos números da lista principal.
-- Tratamento básico de erros para entradas inválidas (opções, anos).
+## Visão geral
 
-## 🛠️ Tecnologias Utilizadas
+O programa roda em loop contínuo: a cada operação concluída, a tela é limpa e o menu principal é reexibido. Cada opção exercita um fundamento diferente da linguagem — funções, estruturas condicionais, laços, formatação de saída e validação de entradas — servindo como registro prático da evolução nos estudos de Python.
 
-- Python 3.x: Linguagem de programação principal.
-- Módulo os: Utilizado para limpar a tela (os.system('cls')) após a escolha de uma opção, mantendo a interface do console limpa (funciona em sistemas Windows).
+## Funcionalidades
 
-## 🚀 Como Executar
-Como este é um programa de console sem interface web, o processo é o seguinte:
+- Exibição de listas de números e nomes pré-definidas
+- Cálculo de idade a partir do ano de nascimento
+- Geração de tabuada para qualquer número, inteiro ou decimal
+- Ordenação da lista de números em ordem decrescente
+- Cálculo de soma e média dos números da lista
+- Tratamento de erros para opções e valores inválidos
+- Limpeza de tela entre as operações
 
-1. Pré-requisito: Certifique-se de ter o Python (versão 3.x) instalado em seu sistema.
-2. Salve o Código: Salve o código Python em um arquivo chamado, por exemplo, menu_interativo.py.
-3. Execute via Terminal: Abra o seu terminal (ou Prompt de Comando/PowerShell no Windows) e navegue até a pasta onde você salvou o arquivo.
-4. Interaja: O menu será exibido. Digite o número da opção desejada e siga as instruções na tela.
+## Tecnologias
+
+| Tecnologia | Aplicação no projeto |
+| --- | --- |
+| Python 3 | Linguagem principal do programa |
+| Funções e laços | Organização das opções do menu |
+| Módulo `os` | Limpeza da tela do terminal |
+| `try`/`except` | Validação de entradas do usuário |
+
+## Como executar
+
+Pré-requisito: Python 3 instalado.
+
+```bash
+git clone https://github.com/OTAVIO-2507/Estudos-Python.git
+cd Estudos-Python
+python exercicios.py
+```
+
+O menu interativo será exibido no terminal; escolha uma opção de 1 a 8.
+
+## Estrutura do projeto
+
+```
+Estudos-Python/
+├── exercicios.py   Programa completo (menu e exercícios)
+└── README.md
+```
+
+## Autor
+
+**Otávio Oliveira** — Desenvolvedor Full Stack
+
+[GitHub](https://github.com/OTAVIO-2507) · [Portfólio](https://otavio-2507.github.io/Portifolio-v2/) · [E-mail](mailto:56otavio@gmail.com)
