@@ -1,8 +1,12 @@
+<div align="center">
+
 # Estudos Python — Menu Interativo de Exercícios
 
 Programa de console em Python com um menu interativo de 8 opções que reúne exercícios de fundamentos: manipulação de listas, cálculos de soma e média, tabuada, ordenação e tratamento de entradas do usuário.
 
-![Python](https://img.shields.io/badge/Python_3-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python_3-3776AB?style=flat-square&logo=python&logoColor=white)
+
+</div>
 
 ## Visão geral
 
@@ -47,8 +51,3 @@ Estudos-Python/
 └── README.md
 ```
 
-## Autor
-
-**Otávio Oliveira** — Desenvolvedor Full Stack
-
-[GitHub](https://github.com/OTAVIO-2507) · [Portfólio](https://otavio-2507.github.io/Portifolio-v2/) · [E-mail](mailto:56otavio@gmail.com)
