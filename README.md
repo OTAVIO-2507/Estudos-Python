@@ -4,7 +4,7 @@
 
 Programa de console em Python com um menu interativo de 8 opções que reúne exercícios de fundamentos: manipulação de listas, cálculos de soma e média, tabuada, ordenação e tratamento de entradas do usuário.
 
-![Python](https://img.shields.io/badge/Python_3-3776AB?style=flat-square&logo=python&logoColor=white)
+![Tecnologias utilizadas](https://skillicons.dev/icons?i=py)
 
 </div>
 
