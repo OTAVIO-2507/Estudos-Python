@@ -22,6 +22,14 @@ O programa roda em loop contínuo: a cada operação concluída, a tela é limpa
 - Tratamento de erros para opções e valores inválidos
 - Limpeza de tela entre as operações
 
+## Decisões de projeto
+
+Algumas escolhas que não são óbvias pelo código:
+
+**O retorno ao menu é recursivo, e isso tem custo.** `voltar_ao_menu_principal` chama `main()` outra vez em vez de devolver o controle a um laço. Funciona para uso interativo, porque ninguém navega fundo o suficiente para estourar a pilha, mas cada volta ao menu empilha mais uma chamada sem encerrar a anterior. Um `while True` dentro de `main` seria a forma que não acumula.
+
+**Cada opção é uma função com nome próprio.** O menu não executa lógica: ele só despacha. Isso mantém cada exercício isolado e legível sozinho, que é o objetivo de um repositório de estudo — o arquivo serve para ser lido, não só executado.
+
 ## Tecnologias
 
 | Tecnologia | Aplicação no projeto |
